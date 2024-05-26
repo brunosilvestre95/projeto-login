@@ -24,7 +24,7 @@
 }
 
 @media screen and (min-width: 992px) {
-
+ /* Notebook + */
     body {
         background-image: linear-gradient(to top, #262626,#9C0025);
     }
@@ -34,14 +34,22 @@
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     ::selection#login > div#formulario {
-        float: right;
+        float: left;
         width: 50%;
         height: 100%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#fomrulario > p {
+        font-size: 1.2em;
     }
 }
