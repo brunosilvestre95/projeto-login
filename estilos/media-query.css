@@ -9,6 +9,7 @@
 
     section#login {
         width: 80vw;
+        height: 285px;
     }
 
     section#login > div#imagem {
@@ -24,13 +25,14 @@
 }
 
 @media screen and (min-width: 992px) {
- /* Notebook + */
+ /* Desktop + */
     body {
         background-image: linear-gradient(to top, #262626,#9C0025);
     }
 
     section#login {
         width: 950px;
+        height: 355px;
     }
 
     section#login > div#imagem{
@@ -39,7 +41,7 @@
         height: 100%;
     }
 
-    ::selection#login > div#formulario {
+    section#login > div#formulario {
         float: left;
         width: 50%;
         height: 100%;
@@ -50,6 +52,6 @@
     }
 
     div#fomrulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
