@@ -37,10 +37,10 @@ section#login {
     height: 525px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
-
+    
+    transform: translate(-50%, -50%);
     transition: width 0.4s, height 0.4s;
     transition-timing-function: ease;
-    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -91,11 +91,9 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 44px);
     height: 100%;
-
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-
     transform: translate(44px, -42px);
 }
 
